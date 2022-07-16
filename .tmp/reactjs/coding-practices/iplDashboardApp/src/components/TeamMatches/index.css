@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.RCB {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #da237b, #a4261d);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #a4261d);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #0f172a);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #13418b);
+}
+
+.team-container {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teambannerimage {
+  width: 100%;
+}
+
+.unorderedList {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}

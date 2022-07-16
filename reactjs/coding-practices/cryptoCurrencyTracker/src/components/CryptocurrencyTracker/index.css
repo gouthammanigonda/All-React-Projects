@@ -1,0 +1,6 @@
+/* Write your CSS here */
+.main-container {
+  background-color: black;
+  min-height: 100vh;
+  padding: 10px;
+}

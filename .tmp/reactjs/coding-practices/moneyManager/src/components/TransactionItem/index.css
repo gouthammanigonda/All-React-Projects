@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.listitem2 {
+  border-bottom: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.listtext {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  width: 30%;
+  border-right: none;
+}
+
+.listbtn {
+  background-color: transparent;
+  border: 0px none;
+  outline: none;
+  cursor: pointer;
+}
+
+.listimg {
+  background-color: transparent;
+  border: 0px none;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  align-self: center;
+}

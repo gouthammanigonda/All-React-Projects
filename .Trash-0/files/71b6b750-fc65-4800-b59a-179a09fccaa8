@@ -1,0 +1,7 @@
+let string = "Hello Rahul! Have a Great Day";
+module.exports = string;
+
+let path = require("path");
+let message = path.join("greeting", "index.js");
+
+console.log(message);

@@ -1,0 +1,12 @@
+Cleared /tmp/jest_0
+  console.log
+    0
+
+      at ClickCounter.<anonymous> (src/components/ClickCounter/index.js:10:15)
+
+  console.log
+    1
+
+      at ClickCounter.<anonymous> (src/components/ClickCounter/index.js:10:15)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

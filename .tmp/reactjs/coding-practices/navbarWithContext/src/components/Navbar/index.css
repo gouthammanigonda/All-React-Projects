@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  width: 70px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.site-theme {
+  width: 50px;
+  height: 50px;
+}
+
+.links-text {
+  list-style-type: none;
+}
+
+.link-style {
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: bold;
+}
+
+.hr-line {
+  border: none;
+  height: 3px;
+  background-color: #dcdcdc;
+}
+
+.button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.light-text {
+  color: white;
+}
+.light-nav {
+  background-color: #333333;
+}
+.none {
+  display: none;
+}

@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.teamCardsContainer {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #ffffff33;
+
+  width: 325px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.teamcardimg {
+  width: 100px;
+  height: 100px;
+}
+
+.teamcardname {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}

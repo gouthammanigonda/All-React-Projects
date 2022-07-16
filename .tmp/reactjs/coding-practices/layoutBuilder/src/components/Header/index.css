@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.header-container {
+  background-color: #cbd5e1;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #475569;
+}

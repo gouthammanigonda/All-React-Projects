@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-container {
+  width: 90%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  margin-left: 10px;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+.sub-heading {
+  font-family: 'Roboto';
+  color: white;
+}
+
+.failure-img {
+  width: 50%;
+  margin-top: 40px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

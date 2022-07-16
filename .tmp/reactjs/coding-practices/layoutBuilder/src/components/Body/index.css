@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.body-container {
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+.body-sub-container {
+  width: 300px;
+  background-color: #e2e8f0;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.each-sub-container {
+  width: 90%;
+}
+.body-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+.body-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+
+.body-sub-container-content {
+  flex-grow: 1;
+  background-color: #f1f5f9;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right-navbar-ad {
+  border: 1px solid #475569;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}

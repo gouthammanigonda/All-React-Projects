@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.logo1 {
+  width: 70px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  align-self: center;
+  margin-left: 40px;
+}
+
+.react-icon {
+  font-size: 20px;
+  color: black;
+}
+
+.react-icon2 {
+  font-size: 40px;
+}
+
+.icon-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.flex-icon {
+  display: flex;
+  align-items: center;
+}
+
+.popup-container {
+  flex-grow: 1;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.model-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+  min-height: 100vh;
+}
+
+.close {
+  align-self: flex-end;
+}

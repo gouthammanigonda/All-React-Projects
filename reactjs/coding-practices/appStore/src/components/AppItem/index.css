@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.listitemapp {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.imageapp {
+  width: 100px;
+}
+
+.appheading {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,88 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.remove-all {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  padding: 8px;
+  color: #0b69ff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+.summery-container {
+  align-self: flex-end;
+  width: 250px;
+
+  padding: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  border-radius: 8px;
+}
+.summery-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #616e7c;
+}
+.span-ele {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: black;
+}
+.summery-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #616e7c;
+}
+.summery-button {
+  background-color: #0b69ff;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  padding: 8px;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  width: 100%;
+}

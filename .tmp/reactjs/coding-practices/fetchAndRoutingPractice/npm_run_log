@@ -1,0 +1,84 @@
+Cleared /tmp/jest_0
+  console.error
+    Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.
+        at BlogList (/home/workspace/.tmp/reactjs/coding-practices/fetchAndRoutingPractice/src/components/BlogList/index.js:7:34)
+        at div
+        at Home
+        at Route (/home/workspace/.tmp/reactjs/coding-practices/fetchAndRoutingPractice/node_modules/.pnpm/react-router@5.2.0_react@17.0.1/node_modules/react-router/cjs/react-router.js:470:29)
+        at Switch (/home/workspace/.tmp/reactjs/coding-practices/fetchAndRoutingPractice/node_modules/.pnpm/react-router@5.2.0_react@17.0.1/node_modules/react-router/cjs/react-router.js:676:29)
+        at div
+        at div
+        at div
+        at App
+        at Router (/home/workspace/.tmp/reactjs/coding-practices/fetchAndRoutingPractice/node_modules/.pnpm/react-router@5.2.0_react@17.0.1/node_modules/react-router/cjs/react-router.js:99:30)
+        at BrowserRouter (/home/workspace/.tmp/reactjs/coding-practices/fetchAndRoutingPractice/node_modules/.pnpm/react-router-dom@5.2.0_react@17.0.1/node_modules/react-router-dom/cjs/react-router-dom.js:67:35)
+
+      23 |       topic: each.topic,
+      24 |     }))
+    > 25 |     this.setState({
+         |          ^
+      26 |       blogsList: updatedData,
+      27 |       isLoading: false,
+      28 |     })
+
+      at printWarning (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnAboutUpdateOnUnmountedFiberInDEV (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23914:9)
+      at scheduleUpdateOnFiber (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:21840:5)
+      at Object.enqueueSetState (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12467:5)
+      at BlogList.setState (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react.development.js:365:16)
+      at BlogList.getBlogsListItems (src/components/BlogList/index.js:25:10)
+
+  console.log
+    {
+      id: 2,
+      title: 'React v16.7: No, This Is Not the One With Hooks',
+      image_url: 'https://miro.medium.com/max/3158/1*kEPCQNY4dwVyaFuLEwJcNQ.png',
+      avatar_url: 'https://avatars.githubusercontent.com/u/3624098?v=4',
+      author: 'Andrew Clark',
+      content: 'React follows semantic versioning. Typically, this means that we use patch versions for bugfixes, and minors for new (non-breaking) features. However, we reserve the option to release minor versions even if they do not include new features. The motivation is to reserve patches for changes that have a very low chance of breaking. Patches are the most important type of release because they sometimes contain critical bugfixes.',
+      topic: 'React.js'
+    }
+
+      at BlogItemDetails.getBlogItemData (src/components/BlogItemDetails/index.js:24:13)
+
+  console.log
+    {
+      id: 2,
+      title: 'React v16.7: No, This Is Not the One With Hooks',
+      image_url: 'https://miro.medium.com/max/3158/1*kEPCQNY4dwVyaFuLEwJcNQ.png',
+      avatar_url: 'https://avatars.githubusercontent.com/u/3624098?v=4',
+      author: 'Andrew Clark',
+      content: 'React follows semantic versioning. Typically, this means that we use patch versions for bugfixes, and minors for new (non-breaking) features. However, we reserve the option to release minor versions even if they do not include new features. The motivation is to reserve patches for changes that have a very low chance of breaking. Patches are the most important type of release because they sometimes contain critical bugfixes.',
+      topic: 'React.js'
+    }
+
+      at BlogItemDetails.getBlogItemData (src/components/BlogItemDetails/index.js:24:13)
+
+  console.log
+    {
+      id: 2,
+      title: 'React v16.7: No, This Is Not the One With Hooks',
+      image_url: 'https://miro.medium.com/max/3158/1*kEPCQNY4dwVyaFuLEwJcNQ.png',
+      avatar_url: 'https://avatars.githubusercontent.com/u/3624098?v=4',
+      author: 'Andrew Clark',
+      content: 'React follows semantic versioning. Typically, this means that we use patch versions for bugfixes, and minors for new (non-breaking) features. However, we reserve the option to release minor versions even if they do not include new features. The motivation is to reserve patches for changes that have a very low chance of breaking. Patches are the most important type of release because they sometimes contain critical bugfixes.',
+      topic: 'React.js'
+    }
+
+      at BlogItemDetails.getBlogItemData (src/components/BlogItemDetails/index.js:24:13)
+
+  console.log
+    {
+      id: 2,
+      title: 'React v16.7: No, This Is Not the One With Hooks',
+      image_url: 'https://miro.medium.com/max/3158/1*kEPCQNY4dwVyaFuLEwJcNQ.png',
+      avatar_url: 'https://avatars.githubusercontent.com/u/3624098?v=4',
+      author: 'Andrew Clark',
+      content: 'React follows semantic versioning. Typically, this means that we use patch versions for bugfixes, and minors for new (non-breaking) features. However, we reserve the option to release minor versions even if they do not include new features. The motivation is to reserve patches for changes that have a very low chance of breaking. Patches are the most important type of release because they sometimes contain critical bugfixes.',
+      topic: 'React.js'
+    }
+
+      at BlogItemDetails.getBlogItemData (src/components/BlogItemDetails/index.js:24:13)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

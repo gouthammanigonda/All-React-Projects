@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.listitem {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.details {
+  margin: 0px;
+  padding: 10px;
+}
+
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.para {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.starimg {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+.button2 {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}

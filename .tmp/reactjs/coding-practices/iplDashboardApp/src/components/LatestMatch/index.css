@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.lastmatchcontainer {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.competing-heading {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 30px;
+}
+
+.date {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  color: white;
+}
+
+.common-text {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 20px;
+}
+
+.competingTramLogo {
+  width: 300px;
+}
+
+.hilight-text {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: white;
+}
+
+.lastmatchcontainersubcontainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastmatchcontainersubcontainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastmatchcontainersubcontainer3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

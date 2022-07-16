@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.listItem {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.listheading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.list-image {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-header2-1 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.sub-heading2-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 30px;
+  width: 220px;
+}
+
+.value {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}

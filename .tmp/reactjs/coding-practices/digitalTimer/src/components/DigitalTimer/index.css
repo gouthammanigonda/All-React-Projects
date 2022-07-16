@@ -1,0 +1,131 @@
+/* Write your CSS here */
+.container1 {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainheading {
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+}
+
+.run-pause-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 450px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-display {
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-bottom: 4px;
+}
+
+.status {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.timer-start-stop-container {
+}
+
+.buttons {
+  display: flex;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.start-pause-reset-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0px none;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btnimg {
+  width: 50px;
+  height: 50px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.set-timer-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-heading {
+  font-family: 'Roboto';
+}
+
+.set-timer-sub-container {
+  display: flex;
+}
+
+.set-timer-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0px none;
+  font-weight: bold;
+  font-size: 20px;
+  width: 50px;
+}
+
+.text-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  border-radius: 5px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.text2 {
+}

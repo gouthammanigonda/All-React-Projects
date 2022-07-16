@@ -1,0 +1,12 @@
+Cleared /tmp/jest_0
+  console.log
+
+
+      at DestinationSearch.onclickfun (src/components/DestinationSearch/index.js:14:13)
+
+  console.log
+    e
+
+      at DestinationSearch.onclickfun (src/components/DestinationSearch/index.js:14:13)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

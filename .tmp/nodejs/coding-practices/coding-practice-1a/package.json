@@ -1,0 +1,16 @@
+{
+    "name": "import-export-boolean-tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "exportBoolean.js",
+    "scripts": {
+      "pretest": "cd .tests && pnpm i",
+      "test": "jest --config=.tests/jest.config.js "
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "jest": "26.6.3"
+    }
+  }
+  

@@ -1,0 +1,6 @@
+  console.log
+    [ 'countries', 190, 'continents', 7, false, 6.2 ]
+
+      at ../importArray.mjs:2:9
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

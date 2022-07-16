@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.recentMatchContainer {
+  list-style-type: none;
+  background-color: #0f172a;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.recentMatchImage {
+  width: 100px;
+}
+
+.competingTeamHeading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.result {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.text-style {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+
+.green {
+  color: #18ed66;
+}
+
+.red {
+  color: #e31a1a;
+}

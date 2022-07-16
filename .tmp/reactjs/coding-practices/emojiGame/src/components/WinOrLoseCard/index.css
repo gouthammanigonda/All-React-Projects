@@ -1,0 +1,66 @@
+/* Write your code here. */
+.wlcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  background-color: #ffffff33;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 80%;
+}
+
+.wlcontainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.wlheading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.wlcontainer3 {
+  align-self: center;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.wlbestscore {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.wlscore {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #6a59ff;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.wlbutton {
+  background-color: #ffce27;
+  border-radius: 10px;
+  border: 0px none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.wl {
+  margin-left: 60px;
+}
+
+.winloseimg {
+  width: 90%;
+}

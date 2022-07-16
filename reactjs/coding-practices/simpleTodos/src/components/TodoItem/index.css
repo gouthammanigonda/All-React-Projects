@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.listItem {
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.button {
+  background-color: white;
+  color: #ff0b37;
+  padding: 8px;
+  border-width: 2px;
+  border-color: #ff0b37;
+  border-style: solid;
+  border-radius: 4px;
+  height: 40px;
+  margin-left: 20px;
+}

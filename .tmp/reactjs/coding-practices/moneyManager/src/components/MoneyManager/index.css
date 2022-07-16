@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.container1 {
+  padding: 40px;
+}
+
+.container2 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 90px;
+}
+
+.mainheading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-top: 8px;
+  color: #7e858e;
+}
+
+.spanele {
+  color: #0b69ff;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.container4 {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #d7dfe9;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 30px;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.label {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.formheading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.input {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.formbtn {
+  background-color: #0b69ff;
+  border: 0px none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  color: white;
+  font-family: 'Roboto';
+  max-width: 80px;
+  border-radius: 5px;
+}
+
+.subcontainer4 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #d7dfe9;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 30px;
+  flex-grow: 2;
+  margin-left: 20px;
+}
+
+.histryheading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.unorderedlist {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.listitem1 {
+  list-style-type: none;
+  border: 2px solid #d7dfe9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.category {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  width: 30%;
+  border-right: none;
+}

@@ -1,0 +1,74 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.main-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+}
+
+.message-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.blue {
+  background-color: #0b69ff;
+  color: white;
+}
+.green {
+  background-color: #2dca73;
+  color: white;
+}
+.yellow {
+  background-color: #ffb800;
+  color: white;
+}
+.red {
+  background-color: #ff0b37;
+  color: white;
+}
+
+.message-text {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 10px;
+  align-self: flex-start;
+}
+
+.image {
+  width: 10px;
+  height: 10px;
+  margin-right: 16px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .message-container {
+    width: 60%;
+  }
+}

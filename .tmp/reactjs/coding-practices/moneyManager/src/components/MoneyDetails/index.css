@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.subcontainer {
+  border-radius: 10px;
+  width: 25%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+
+.balanceimg {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.textcontainer {
+  margin-left: 8px;
+  margin-left: 10px;
+}
+
+.balanceheading {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #334155;
+}
+
+.balance {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.subcontainer2 {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+
+.subcontainer3 {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}

@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.listItem {
+  list-style-type: none;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  font-family: 'Roboto';
+  margin-left: 0px;
+}
+
+.button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0px none;
+}
+
+.arrowimg {
+  max-width: 30px;
+  max-height: 30px;
+}

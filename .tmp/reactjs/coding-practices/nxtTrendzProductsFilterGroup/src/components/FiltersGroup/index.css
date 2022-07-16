@@ -1,0 +1,94 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input {
+  width: 300px;
+  background-color: #f1f5f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.category {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.rating-img {
+  width: 150px;
+}
+
+.rating-sub-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.span-ele {
+  margin-left: 5px;
+}
+
+.category-options-session {
+  display: flex;
+  flex-direction: column;
+}
+
+.button1 {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.active {
+  color: #0967d2;
+}
+
+.button2 {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  color: #0967d2;
+  font-weight: bold;
+  border: 2px solid #0967d2;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.category-session {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.rating-session {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-left: 0px;
+}

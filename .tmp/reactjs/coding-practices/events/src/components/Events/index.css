@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+}
+
+.event-items {
+  background-color: #3a4b63;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+}
+
+.event-item {
+  width: 90%;
+}
+
+.active-event-registration-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.unordered-list {
+  padding-left: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+}

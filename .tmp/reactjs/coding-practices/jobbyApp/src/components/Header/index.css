@@ -1,0 +1,38 @@
+.header {
+  background-color: #272727;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.link-container {
+  display: flex;
+  gap: 15px;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+.position {
+  margin-bottom: 0px;
+}
+
+.header-text {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-width {
+  width: 100px;
+}

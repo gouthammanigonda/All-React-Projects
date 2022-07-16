@@ -1,0 +1,16 @@
+{
+    "name": "import-export-multiple-values-tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "exportMultipleValues.mjs",
+    "scripts": {
+      "pretest": "cd .tests && pnpm i",
+      "test": "node --experimental-vm-modules node_modules/jest/bin/jest --config=.tests/jest.config.cjs "
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "jest": "26.6.3"
+    }
+  }
+  

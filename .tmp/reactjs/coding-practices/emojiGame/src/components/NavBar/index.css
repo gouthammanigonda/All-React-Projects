@@ -1,0 +1,48 @@
+/* Write your code here. */
+.navbarcontainer {
+  background-color: #ffffff33;
+  width: 99vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navimage {
+  width: 70px;
+}
+
+.logocontainer {
+  display: flex;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.navheading {
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.scorecontainer {
+  display: flex;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.navscores {
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .navscores {
+    margin-left: 60px;
+  }
+  .logocontainer {
+    margin-left: 60px;
+    padding-left: 60px;
+  }
+}

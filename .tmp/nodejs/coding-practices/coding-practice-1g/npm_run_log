@@ -1,0 +1,6 @@
+  console.log
+    Be Happy and Safe
+
+      at ../importString.mjs:2:9
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

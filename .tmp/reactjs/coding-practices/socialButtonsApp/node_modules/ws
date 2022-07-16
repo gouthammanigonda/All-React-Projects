@@ -1,0 +1,1 @@
+.pnpm/ws@6.2.2/node_modules/ws

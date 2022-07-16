@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.listItem {
+  list-style-type: none;
+}
+
+.hr-line {
+  background-color: #9aa5b1;
+}
+
+.flex-box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 30px;
+  color: #12022f;
+  font-weight: bold;
+}
+
+.para1 {
+  font-size: 15px;
+  color: #616e7c;
+}

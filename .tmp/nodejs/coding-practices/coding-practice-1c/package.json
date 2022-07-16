@@ -1,0 +1,16 @@
+{
+    "name": "import-export-function-parameter-tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "exportFunctionWithParameter.js",
+    "scripts": {
+      "pretest": "cd .tests && pnpm i",
+      "test": "jest --config=.tests/jest.config.js "
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "jest": "26.6.3"
+    }
+  }
+  

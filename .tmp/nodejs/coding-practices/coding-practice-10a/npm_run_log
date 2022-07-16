@@ -1,0 +1,11 @@
+  console.log
+    login called
+
+      at loginUser (index.test.js:9:11)
+
+  console.log
+    Server Running at http://localhost:3000/
+
+      at Server.<anonymous> (../app.js:24:15)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

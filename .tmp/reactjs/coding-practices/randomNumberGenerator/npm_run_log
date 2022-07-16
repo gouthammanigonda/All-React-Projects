@@ -1,0 +1,22 @@
+Cleared /tmp/jest_0
+  console.log
+    11
+
+      at RandomNumberGenerator.generate (src/components/RandomNumberGenerator/index.js:12:13)
+
+  console.log
+    0
+
+      at RandomNumberGenerator.generate (src/components/RandomNumberGenerator/index.js:13:13)
+
+  console.log
+    11
+
+      at RandomNumberGenerator.generate (src/components/RandomNumberGenerator/index.js:12:13)
+
+  console.log
+    0
+
+      at RandomNumberGenerator.generate (src/components/RandomNumberGenerator/index.js:13:13)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

@@ -1,0 +1,28 @@
+/* Write your code here. */
+.container1 {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.heading {
+  font-size: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.unorderedlist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+}

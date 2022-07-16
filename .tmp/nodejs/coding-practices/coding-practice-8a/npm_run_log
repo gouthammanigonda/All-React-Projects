@@ -1,0 +1,6 @@
+  console.log
+    Server Running at http://localhost:3000/
+
+      at Server.<anonymous> (../app.js:26:15)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

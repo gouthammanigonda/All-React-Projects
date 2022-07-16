@@ -1,0 +1,59 @@
+/* Write your CSS code here */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.main-container2 {
+  padding: 10px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  color: #00e7ff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.unorderedList {
+  border: 4px solid #00e7ff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.header {
+  background-color: #092e33;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin-left: 30px;
+}
+
+.sub-header-container {
+  display: flex;
+  margin-right: 30px;
+  justify-content: space-evenly;
+  width: 220px;
+}

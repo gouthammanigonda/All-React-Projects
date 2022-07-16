@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.container1 {
+  padding: 40px;
+}
+
+.container2 {
+  display: flex;
+}
+
+.infocontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.text {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  width: 300px;
+
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #0284c7;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+  max-width: 130px;
+
+  margin-bottom: 20px;
+}
+
+.commentsImage {
+  width: 30%;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.hrline {
+  border: 1px solid #dee0e3;
+}
+
+.commentcount {
+  display: flex;
+}
+
+.countcolor {
+  background-color: #0ea5e9;
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  color: white;
+}
+
+.countheading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.unorderedlist {
+  padding-left: 0;
+  margin-top: 0;
+}

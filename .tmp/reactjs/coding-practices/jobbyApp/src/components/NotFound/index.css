@@ -1,0 +1,20 @@
+.not-found {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-image {
+  width: 500px;
+}
+.nf-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+}
+
+.nf-para {
+  font-family: 'Roboto';
+  color: white;
+}

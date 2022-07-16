@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.para2 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+}
+
+.image {
+  width: 70%;
+}
+
+.button1 {
+  background-color: #0b69ff;
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  margin-right: 20px;
+}
+
+.button2 {
+  background-color: transparent;
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  font-family: 'Roboto';
+}

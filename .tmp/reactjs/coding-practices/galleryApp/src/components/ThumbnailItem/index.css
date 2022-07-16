@@ -1,0 +1,19 @@
+/* Write your code here. */
+.listitems {
+  list-style-type: none;
+}
+
+.button {
+  border-width: 0px;
+  border-color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.active {
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0.5;
+}

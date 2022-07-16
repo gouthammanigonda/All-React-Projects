@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.container1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.color1 {
+  color: rgb(82, 157, 243);
+}
+
+.color2 {
+  color: red;
+}
+
+.color3 {
+  color: rgb(231, 231, 89);
+}
+
+.color4 {
+  color: green;
+}
+
+.googleimg {
+  width: 200px;
+}
+
+.input {
+  width: 300px;
+  border: 0px none;
+  outline: none;
+  height: 50px;
+  font-size: 20px;
+}
+
+.container2 {
+  background-color: white;
+  box-shadow: 10px 10px 30px rgb(68, 55, 55);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 0px;
+}
+
+.searchimg {
+  width: 50px;
+}
+
+.searchcontainer {
+  display: flex;
+}
+
+.unorderedList {
+  padding: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

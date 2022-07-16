@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.cc-container {
+  background-color: #475569;
+  display: flex;
+  justify-content: center;
+}
+.cc-sub-container {
+  width: 90%;
+}
+.cc-flex-container {
+}
+.cc-heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 40px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.cc-input-ele-container {
+}
+
+.cc-input-ele {
+  margin-bottom: 10px;
+}
+
+.input-ele {
+  size: 20px;
+  width: 30px;
+}
+.input-label {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: white;
+  font-size: 15px;
+}

@@ -1,0 +1,26 @@
+Cleared /tmp/jest_0
+  console.error
+    Warning: Cannot update during an existing state transition (such as within `render`). Render methods should be a pure function of props and state.
+        at Header (/home/workspace/.tmp/reactjs/coding-practices/matchGame/src/Header/index.js:4:10)
+        at div
+        at Game (/home/workspace/.tmp/reactjs/coding-practices/matchGame/src/Game/index.js:6:30)
+        at div
+        at App
+
+      41 |   stopTimer = () => {
+      42 |     clearInterval(this.Index)
+    > 43 |     this.setState({
+         |          ^
+      44 |       timer: 0,
+      45 |       gameInProgress: false,
+      46 |     })
+
+      at printWarning (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnAboutRenderPhaseUpdatesInDEV (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:24011:15)
+      at scheduleUpdateOnFiber (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:21836:3)
+      at Object.enqueueSetState (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12467:5)
+      at Game.setState (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react.development.js:365:16)
+      at Game.stopTimer (src/Game/index.js:43:10)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

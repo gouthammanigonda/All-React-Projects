@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+}
+
+.unordered-list {
+  display: flex;
+}
+
+.unordered-list2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.failure-img {
+  width: 50%;
+}

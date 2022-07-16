@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.project-img {
+  width: 100%;
+}
+
+.list-item {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.anchor-ele {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #0967d2;
+  font-weight: bold;
+  text-decoration-line: none;
+}

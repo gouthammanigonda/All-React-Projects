@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-sub-container {
+  display: flex;
+}
+
+.headerimg {
+  width: 50px;
+}
+
+.header-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}

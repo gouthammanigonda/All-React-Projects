@@ -1,0 +1,45 @@
+.header-container {
+  background-color: #2c0e3a;
+  padding: 10px 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.logo-img {
+  width: 150px;
+}
+.img-container {
+  list-style-type: none;
+}
+.score-container {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.header-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.span-ele {
+  font-family: 'Roboto';
+
+  font-weight: 500;
+  font-size: 30px;
+  color: #fec653;
+}
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.timer {
+  width: 20px;
+  height: 20px;
+}

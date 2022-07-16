@@ -1,0 +1,6 @@
+  console.log
+    25
+
+      at ../importNumber.mjs:2:9
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

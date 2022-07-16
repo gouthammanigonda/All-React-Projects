@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  color: #171f46;
+}
+
+.not-found-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 300;
+  color: #171f46;
+}
+
+.not-found-img {
+  width: 300px;
+}
+.text-light {
+  color: white;
+}
+.dark {
+  background-color: black;
+}

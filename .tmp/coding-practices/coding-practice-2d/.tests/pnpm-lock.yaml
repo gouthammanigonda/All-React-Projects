@@ -1,0 +1,15 @@
+dependencies:
+  '@babel/parser': 7.13.11
+  ccbp-jest-reporter: link:../../../../../theia/.ccbp/ccbp-jest-reporter
+lockfileVersion: 5.2
+packages:
+  /@babel/parser/7.13.11:
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-PhuoqeHoO9fc4ffMEVk4qb/w/s2iOSWohvbHxLtxui0eBg3Lg5gN1U8wp1V1u61hOWkPQJJyJzGH6Y+grwkq8Q==
+specifiers:
+  '@babel/parser': 7.13.11
+  ccbp-jest-reporter: file:~/.ccbp/ccbp-jest-reporter

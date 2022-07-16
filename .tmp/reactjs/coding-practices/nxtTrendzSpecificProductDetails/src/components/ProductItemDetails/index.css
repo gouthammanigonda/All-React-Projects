@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.main-component {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.item-container {
+  width: 90vw;
+  display: flex;
+  gap: 20px;
+}
+
+.image-container {
+}
+.each-image {
+  width: 550px;
+  height: 550px;
+  border-radius: 10px;
+}
+.content-container {
+}
+.title-heading {
+  font-family: 'Roboto';
+}
+.price {
+  font-family: 'Roboto';
+}
+.rating-reviews {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rating {
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  height: 30px;
+  padding: 10px 10px;
+  color: white;
+}
+.rating-text {
+  font-family: 'Roboto';
+}
+.rating-icon {
+}
+.review-text {
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 300;
+}
+.description {
+  font-family: 'Roboto';
+}
+.span-ele {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.quantity-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.quantity-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+}
+
+.quantity {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.cart-btn {
+  background-color: #3b82f6;
+  color: white;
+  font-family: 'Roboto';
+  padding: 10px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sp-heading {
+  padding: 20px 50px;
+}
+
+.unordered-list {
+  display: flex;
+  gap: 20px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.similar-image {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.div-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

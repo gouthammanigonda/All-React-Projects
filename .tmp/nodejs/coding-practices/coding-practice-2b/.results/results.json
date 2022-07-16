@@ -1,0 +1,20 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "NJSCPLSNFE_TEST_1",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "NJSCPLSNFE_TEST_2",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "NJSCPLSNFE_TEST_3",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "NJSCPLSNFE_TEST_4",
+      "evaluation_result": "CORRECT"
+    }
+  ]
+}

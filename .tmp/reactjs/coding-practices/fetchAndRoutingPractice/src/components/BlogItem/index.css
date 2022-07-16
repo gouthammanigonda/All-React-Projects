@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.main-container {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+
+  margin-bottom: 30px;
+  padding: 10px;
+  display: flex;
+}
+
+.image-url {
+  width: 400px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.avatar-image {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #8e8e8e;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.topic {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.author {
+  font-family: 'Roboto';
+  color: #8e8e8e;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+}

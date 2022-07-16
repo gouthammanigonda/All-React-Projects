@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+
+.image {
+  width: 350px;
+}
+
+.item-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.item-para {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+
+.item-button {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}

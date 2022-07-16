@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.container1 {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  padding: 30px;
+}
+
+.select {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+}
